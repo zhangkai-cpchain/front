@@ -72,4 +72,29 @@
 
 div应该变成1秒红色，然后2秒蓝色，然后3秒绿色
 
-## 3.
+## 3.树状结构包含问题
+
+给以下定数据结构,实现方法判断treeNode1是否完全包含treeNode2
+
+```typescript
+
+interface TreeNode {
+  val: number
+  children?: TreeNode[]
+}
+
+```
+
+**完全包含定义:**
+
+所有treeNode2中的节点，都在treeNode1中出现，并且treeNode2中节点的父子关系在treeNode1中保持不变
+
+**示例：**
+
+包含
+
+![avatar](/asset/include.png)
+
+不包含
+
+![avatar](/asset/exclude.png)
