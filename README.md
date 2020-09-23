@@ -79,7 +79,7 @@ div应该变成1秒红色，然后2秒蓝色，然后3秒绿色
 ```typescript
 
 interface TreeNode {
-  val: number
+  val: string
   children?: TreeNode[]
 }
 
