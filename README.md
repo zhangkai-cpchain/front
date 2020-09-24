@@ -57,7 +57,7 @@
 }]
 ```
 
-## 2.按照时间变换颜色
+## 2.霓虹灯
 
 给定一个div和一个数组，数组元素包含一个数字time和一个颜色color。从数组的第一个元素开始遍历，将div背景颜色设置为该元素提供的颜色，然后经过time秒后将div设置为下一个元素的颜色
 
@@ -87,7 +87,7 @@ interface TreeNode {
 
 **完全包含定义:**
 
-所有treeNode2中的节点，都在treeNode1中出现，并且treeNode2中节点的父子关系在treeNode1中保持不变
+treeNode2中的所有节点，都在treeNode1中出现，并且treeNode2中节点的父子关系在treeNode1中保持不变
 
 **示例：**
 
